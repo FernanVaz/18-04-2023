@@ -1,0 +1,7 @@
+export enum tipoProducto{
+  ALIMENTOS = "ALIMENTOS",
+  PERECEDEROS = "PERECEDEROS",
+  LIMPIEZA = "LIMPIEZA",
+  TECNOLOGIA = "TECNOLOGIA"
+}
+

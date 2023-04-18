@@ -1,0 +1,18 @@
+<app-hijo-producto2 (enviardatos)="anadirpaciente($event)"></app-hijo-producto2>
+<table>
+   <tr>
+       <td>IDCLIENTE</td>
+       <td>IDPRODUCTO</td>
+       <td>NOMBRE</td>
+       <td>TOTAL PRODUCTO</td>
+       <td>IMPORTE TOTAL</td>
+   </tr>
+   <tr *ngFor="let pedido of pedidos1">
+       <td>{{pedido.idCliente}}</td>
+       <td>{{pedido.idPedido}}</td>
+       <td>{{pedido.nombreCliente}}</td>
+       <td>{{pedido.totalProducto}}</td>
+       <td>{{pedido.importeTotal}}</td>
+   </tr>
+</table>
+

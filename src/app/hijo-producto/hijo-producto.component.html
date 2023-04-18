@@ -1,0 +1,41 @@
+<!-- HTML -->
+
+<table class="tabla-productos">
+
+  <tr class="encabezado">
+
+    <th>Id</th>
+
+    <th>Nombre</th>
+
+
+    <th>Cantidad</th>
+
+
+    <th>Precio</th>
+
+
+    <th>Tipo de alimentos</th>
+
+
+  </tr>
+
+
+  <tr class="fila-producto" *ngFor="let producto of productos">
+
+    <td>{{ producto.id }}</td>
+
+
+    <td>{{ producto.nombre }}</td>
+
+
+    <td>{{ producto.cantidad }}</td>
+
+    <td>{{ producto.precio }}</td>
+
+
+    <td>{{ producto.tp }}</td>
+
+
+  </tr>
+</table>

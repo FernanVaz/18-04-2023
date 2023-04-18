@@ -1,0 +1,34 @@
+/* Estilos para el componente "app-hijo-producto2" */
+app-hijo-producto2 {
+  margin-bottom: 20px;
+}
+
+/* Estilos para la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Estilos para las celdas de la tabla */
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Estilos para el encabezado de la tabla */
+tr:first-child {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+/* Estilos para las filas impares de la tabla */
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Estilos para las filas pares de la tabla */
+tr:nth-child(even) {
+  background-color: #fff;
+}
